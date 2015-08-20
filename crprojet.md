@@ -20,15 +20,13 @@ La fenêtre de texte ou sont affiché le contenu des fichiers et ou est listé l
  
 
 Quand on lance l’application, la première fenêtre n’affiche rien de spécial. On commence par saisir l’adresse IP du serveur auquel on veut se connecter dans la barre de saisie, puis on clique sur le bouton connexion .
- 
-
+![1er ecran](https://raw.githubusercontent.com/neriki/ProjetMIA4/master/1ecran.jpg)
 Une fois connecter au serveur, le contenu du répertoire courant est affiché dans la zone de texte.
- 
-
+![connect](https://raw.githubusercontent.com/neriki/ProjetMIA4/master/connect.jpg)
 Le bouton « Dir » Permet de lister le répertoire courant. 
 Le bouton « Version » indique quelle est la version d’Unix utilisé par le serveur ainsi que le type de machine. 
 Le bouton « Ouvrir fichier » ouvre le fichier dont le nom à été saisie dans la barre de saisie.
- 
+![voir fichier](https://raw.githubusercontent.com/neriki/ProjetMIA4/master/voirfich.jpg) 
 Le bouton « Aide » affiche l’aide.
 Le bouton « cd .. » descend d’un niveau de répertoire.
 Le bouton « cd » va dans le répertoire dont le nom à été saisie dans la barre de saisie.
