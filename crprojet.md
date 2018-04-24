@@ -1,16 +1,16 @@
 Boniface Eric MIA4
 
-#Projet : explorateur de configuration Unix à distance
+# Projet : explorateur de configuration Unix à distance
 
-##Présentation
+## Présentation
 
 L’explorateur de configuration Unix à distance permet d’explorer le contenu d’un ordinateur Unix à partir de n’importe quel ordinateur relié par un réseau TCP/IP au serveur. Il se compose de deux parties, un logiciel serveur tournant sur le serveur Unix et un logiciel client tournant sur le poste client. Le logiciel client étant écrit en Python, il peut fonctionner sur n’importe quel ordinateur faisant tourner l’interpréteur Python (PC sous Microsoft Windows, Pc sous Linux, station de travail sous Unix, Ordinateur Apple Macintosh).
 
-##Le serveur 
+## Le serveur 
 
 Le serveur est écrit en Python Il s’exécute sur le serveur Unix. Il attend une connexion sur le port 1236. Il ne supporte qu’une connexion à la fois. La connexion entre le serveur le client se fait à partir de commande, le serveur attend une commande du client, celui ci lui envoie, le serveur lui répond en lui renvoyant une chaîne de caractères. Les commandes du clients sont des chaînes de caractères. La réponse du serveur au client se compose d’une chaîne de caractères terminées par la chaîne «***FINENVOI*** ». La commande cliente « fin » ferme la connexion et le serveur se met en attente d’une nouvelle connexion.
 
-##Le client
+## Le client
 
 Le client est écrit en Python, il utilise la bibliothèque graphique Tkinter. Cette bibliothèque permet d’afficher des fenêtres en mode graphique. L’interface se compose de quatre grande partie :
 La liste des boutons qui permettes d’envoyer des commandes au serveur .
